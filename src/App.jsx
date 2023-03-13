@@ -2,8 +2,9 @@ import "./App.css";
 import "./styles/login.css";
 
 const App = () => {
+
   const CLIENT_ID = "cb6fae41b9a148c1b4a6f56eb93a1345";
-  const REDIRECT_URI = "http://localhost:5173/";
+  const REDIRECT_URI = "http://localhost:5173/home/";
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
   const RESPONSE_TYPE = "token";
 
